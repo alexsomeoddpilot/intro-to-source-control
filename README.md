@@ -48,14 +48,26 @@ This makes using Git a joy because we know we can experiment without the danger 
 
 [Getting Started - Git][git-basics]
 
-## What is Bitbucket?
+## Github
 
-Bitbucket is a is a web-based hosting service for projects that use [Git](#what-is-git) revision control systems.
+GitHub is a Git repository web-based hosting service which offers all of the functionality of Git as well as adding many of its own features. Unlike Git, which is strictly a command-line tool, Github provides a web-based graphical interface and desktop as well as mobile integration. It also provides access control and several collaboration features such as wikis, task management, and bug tracking and feature requests for every project.
 
-Bitbucket is distinct in that it offers:
+Github is distinct in that it:
 
-* Unlimited private ([closed source](#closed-source)) repositories
-* Limited user accounts per repository
+* Allows unlimited user accounts per repository
+* Limits the number of private ([closed source](#closed-source)) repositories per user (none for free accounts)
+* Is the diffinitive git service for [open source](#open-source) web software
+
+[Github - Wikipedia][wiki-github]
+
+## Bitbucket
+
+Bitbucket is a is a web-based hosting service for projects that use [Git](#what-is-git) revision control systems. Like Github, Bitbucket offers a graphical interface, wikis, task management, bug tracking, and feature requests.
+
+Bitbucket is distinct in that it:
+
+* Allows unlimited private ([closed source](#closed-source)) repositories
+* Limited user accounts per repository (5-10 for free accounts)
 
 [Bitbucket - Wikipedia][wiki-bitbucket]
 
@@ -116,3 +128,4 @@ Basecamp "Todos" are a rudimentary issue tracking system. Bitbucket and Github o
 [wiki-branch]: http://en.wikipedia.org/wiki/Branching_(revision_control)
 [wiki-fork]: http://en.wikipedia.org/wiki/Fork_(software_development)
 [wiki-issue]: http://en.wikipedia.org/wiki/Issue_tracking_system
+[wiki-github]: http://en.wikipedia.org/wiki/GitHub
