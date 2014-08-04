@@ -1,8 +1,30 @@
-## What is Bitbucket?
+## Source Code
 
-Bitbucket is a is a web-based hosting service for projects that use Git revision control systems.
+In computing, source code is any collection of computer instructions (possibly with comments) written using some human-readable computer language, usually as text. The source code of a program is specially designed to facilitate the work of computer programmers, who specify the actions to be performed by a computer mostly by writing source code.
 
-[Bitbucket - Wikipedia][wiki-bitbucket]
+[Source Code - Wiki][wiki-source]
+
+## Open Source
+
+In production and development, open source as a development model promotes a universal access via free license to a product's design or blueprint, and universal redistribution of that design or blueprint, including subsequent improvements to it by anyone.
+
+Researchers view open source as a specific case of the greater pattern of Open Collaboration, "any system of innovation or production that relies on goal-oriented yet loosely coordinated participants, who interact to create a product (or service) of economic value, which they make available to contributors and non-contributors alike".
+
+Open source gained hold with the rise of the Internet, and the attendant need for massive retooling of the computing source code. Opening the source code enabled a self-enhancing diversity of production models, communication paths, and interactive communities. The open-source software movement arose to clarify the environment that the new copyright, licensing, domain, and consumer issues created.
+ 
+Generally, open source refers to a computer program in which the [source code](#source-code) is available to the general public for use and/or modification from its original design. Open-source code is typically a collaborative effort where programmers improve upon the source code and share the changes within the community so that other members can help improve it further.
+
+All of our development work is based on open source libraries which include Webkit, Unix, Apache, PHP, Javascript, jQuery, Wordpress, etc.
+
+[Open Source - Wiki][wiki-osource]
+
+## Closed Source
+
+Proprietary software or closed source software is computer software licensed under exclusive legal right of the copyright holder with the intent that the licensee is given the right to use the software only under certain conditions, and restricted from other uses, such as modification, sharing, studying, redistribution, or reverse engineering. Usually the source code of proprietary software is not made available.
+
+Most (if not all) of the development work we currently produce is closed source. Source code is not publicly available for our projects.
+
+[Closed Source - Wiki][wiki-csource]
 
 ## What is a version/revision control system?
 
@@ -26,37 +48,20 @@ This makes using Git a joy because we know we can experiment without the danger 
 
 [Getting Started - Git][git-basics]
 
-## Important Concepts
+## What is Bitbucket?
 
-### Source Code
+Bitbucket is a is a web-based hosting service for projects that use [Git](#what-is-git) revision control systems.
 
-In computing, source code is any collection of computer instructions (possibly with comments) written using some human-readable computer language, usually as text. The source code of a program is specially designed to facilitate the work of computer programmers, who specify the actions to be performed by a computer mostly by writing source code.
+Bitbucket is distinct in that it offers:
 
-[Source Code - Wiki][wiki-source]
+* Unlimited private ([closed source](#closed-source)) repositories
+* Limited user accounts per repository
 
-### Open Source
+[Bitbucket - Wikipedia][wiki-bitbucket]
 
-In production and development, open source as a development model promotes a universal access via free license to a product's design or blueprint, and universal redistribution of that design or blueprint, including subsequent improvements to it by anyone.
+## Repositories
 
-Researchers view open source as a specific case of the greater pattern of Open Collaboration, "any system of innovation or production that relies on goal-oriented yet loosely coordinated participants, who interact to create a product (or service) of economic value, which they make available to contributors and non-contributors alike".
-
-Open source gained hold with the rise of the Internet, and the attendant need for massive retooling of the computing source code. Opening the source code enabled a self-enhancing diversity of production models, communication paths, and interactive communities. The open-source software movement arose to clarify the environment that the new copyright, licensing, domain, and consumer issues created.
- 
-Generally, open source refers to a computer program in which the [source code](#source-code) is available to the general public for use and/or modification from its original design. Open-source code is typically a collaborative effort where programmers improve upon the source code and share the changes within the community so that other members can help improve it further.
-
-All of our development work is based on open source libraries which include Webkit, Unix, Apache, PHP, Javascript, jQuery, Wordpress, etc.
-
-[Open Source - Wiki][wiki-osource]
-
-### Closed Source
-
-Proprietary software or closed source software is computer software licensed under exclusive legal right of the copyright holder with the intent that the licensee is given the right to use the software only under certain conditions, and restricted from other uses, such as modification, sharing, studying, redistribution, or reverse engineering. Usually the source code of proprietary software is not made available.
-
-Most (if not all) of the development work we currently produce is closed source. Source code is not publicly available for our projects.
-
-[Closed Source - Wiki][wiki-csource]
-
-### Commit
+## Commit
 
 A commit is the making of a set of tentative changes permanent. In the context of revision control, "commit" refers to submitting the latest changes of the source code to the repository, and making these changes part of the head revision of the repository.
 
@@ -64,7 +69,7 @@ A commit is the making of a set of tentative changes permanent. In the context o
 
 In the context of Git, commits are snapshots of changes to the files in a project. As changes are made to the code, these changes are commited, and the results are displayed as [diffs](#diff) between commits.
 
-### Diff
+## Diff
 
 A diff is a file comparison utility that outputs the differences between two files. Diff is line-oriented rather than character-oriented in that it tries to determine the smallest set of deletions and insertions to create one file from the other. 
 
@@ -74,7 +79,7 @@ The output is called a "diff", or a patch, since the output can be applied with 
 
 [Diff - Wikipedia][wiki-diff]
 
-### Branch
+## Branch
 
 Branching is the duplication of an object under revision control so that modifications can happen in parallel along both branches.
 
@@ -82,7 +87,7 @@ Branching also generally implies the ability to later merge or integrate changes
 
 [Branching - Wikipedia][wiki-branch]
 
-### Fork
+## Fork
 
 In software engineering, a project fork happens when developers take a copy of source code from one software package and start independent development on it, creating a distinct piece of software. The term often implies not merely a development [branch](#branch), but a split in the developer community, a form of schism.
 
@@ -90,7 +95,7 @@ Free and open-source software is that which, by definition, may be forked from t
 
 [Fork - Wikipedia][wiki-fork]
 
-### Issue Tracking System
+## Issue Tracking System
 
 An issue tracking system is a computer software package that manages and maintains lists of issues, as needed by an organization. Consistent use of an issue or bug tracking system is considered one of the "hallmarks of a good software team".
 
@@ -98,7 +103,7 @@ A ticket element or issue, within an issue tracking system, is a running report 
 
 [Issue Tracking - Wikipedia][wiki-issue]
 
-Basecamp "Todos" are a rudimentary issue tracking system. Bitbucket offers a more nuanced issue tracking system.
+Basecamp "Todos" are a rudimentary issue tracking system. Bitbucket and Github offer a more nuanced issue tracking system.
 
 [wiki-bitbucket]: http://en.wikipedia.org/wiki/Bitbucket
 [wiki-revisioncontrol]: http://en.wikipedia.org/wiki/Revision_control
