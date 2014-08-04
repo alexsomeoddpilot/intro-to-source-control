@@ -73,6 +73,12 @@ Bitbucket is distinct in that it:
 
 ## Repositories
 
+A software repository is a storage location from which software packages may be retrieved and installed on a computer.
+
+[Repository - Wikipedia][wiki-repo]
+
+Repositories are colloquially called "repos."
+
 ## Commit
 
 A commit is the making of a set of tentative changes permanent. In the context of revision control, "commit" refers to submitting the latest changes of the source code to the repository, and making these changes part of the head revision of the repository.
@@ -129,3 +135,4 @@ Basecamp "Todos" are a rudimentary issue tracking system. Bitbucket and Github o
 [wiki-fork]: http://en.wikipedia.org/wiki/Fork_(software_development)
 [wiki-issue]: http://en.wikipedia.org/wiki/Issue_tracking_system
 [wiki-github]: http://en.wikipedia.org/wiki/GitHub
+[wiki-repo]: http://en.wikipedia.org/wiki/Software_repository
